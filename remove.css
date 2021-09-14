@@ -1,0 +1,39 @@
+body
+{
+  margin: 0;
+  background: url(OVS.jpg);
+  background-size: cover;
+  font-family: "Times New Roman", Times, serif;
+}
+.menu-bar
+{
+  width: 20%;
+  padding-top: 25px;
+}
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+li
+{
+    float: left;
+}
+
+li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 18px;
+    width: 60px;
+}
+
+.active
+{
+    background-color: #4CAF50;
+}

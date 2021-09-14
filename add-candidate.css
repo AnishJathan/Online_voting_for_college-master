@@ -1,0 +1,12 @@
+body
+{
+  margin: 0;
+  background: url(OVS.jpg);
+  background-size: cover;
+  font-family: "Times New Roman", Times, serif;
+}
+
+form>div
+{
+  position: relative;
+}

@@ -1,0 +1,88 @@
+body
+{
+  margin: 0;
+  background: url(OVS.jpg) no-repeat ;
+  background-size: cover;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.student-details
+{
+  width: 100%;
+  height: 300px;
+  box-sizing: border-box;
+  padding: 60px;
+  color: white;
+}
+
+.student-details label
+{
+  font-size: 18px;
+}
+
+.candidate-details
+{
+  width: 100%;
+  padding: 20px 100px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.candidate-details label
+{
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.candidate-details table,th,td
+{
+  border: 1px solid White;
+  border-collapse: collapse;
+}
+
+.candidate-details td
+{
+  width: 80px;
+  height: 30px;
+}
+
+.logout
+{
+  float: right;
+  width: 30%;
+  padding-top: 35px;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    float: left;
+    padding-right: 30px;
+}
+
+li
+{
+    float: left;
+}
+
+li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+li a:hover
+{
+    background-color: #4CAF50;
+}
+
+.active
+{
+    background-color: #4CAF50;
+}

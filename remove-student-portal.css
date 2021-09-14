@@ -1,0 +1,32 @@
+body
+{
+  margin: 0;
+  background: url(OVS.jpg);
+  background-size: cover;
+  font-family: "Times New Roman", Times, serif;
+}
+.remove-student-data
+{
+  width: 100%;
+  padding: 20px 100px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.remove-student-data label
+{
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.remove-student-data table,th,td
+{
+  border: 1px solid White;
+  border-collapse: collapse;
+}
+
+.remove-student-data td
+{
+  width: 80px;
+  height: 30px;
+}

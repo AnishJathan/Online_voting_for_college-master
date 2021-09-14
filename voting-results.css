@@ -1,0 +1,27 @@
+body
+{
+  margin: 0;
+  background: url(OVS.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+div>form
+.result-table
+{
+  width: 100%;
+  padding: 20px 100px;
+  box-sizing: border-box;
+  color: white;
+}
+.result-table table,th,td
+{
+  border: 1px solid White;
+  border-collapse: collapse;
+}
+.result-table td
+{
+  width: 80px;
+  height: 30px;
+}

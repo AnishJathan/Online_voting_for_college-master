@@ -1,0 +1,38 @@
+body
+{
+  margin: 0;
+  background: url(OVS.jpg) no-repeat;
+  background-size: cover;
+  font-family: "Times New Roman", Times, serif;
+  background-attachment: fixed;
+}
+h1
+{
+  color: white;
+}
+
+.voting
+{
+  width: 95%;
+  height: 550px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 18px;
+}
+.voting button
+{
+  background-color: #4CAF50;
+  border-radius: 20px;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  cursor: pointer;
+  width: 15%;
+  margin-top: 50px;
+}

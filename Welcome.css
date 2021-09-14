@@ -1,0 +1,61 @@
+body
+{
+  margin: 0;
+  background: #69C9F6;
+  font-family: "Comic Sans MS", Times, serif;
+  background: url(OVS15.jpg);
+  background-size: cover;
+}
+
+.welcome
+{
+  width: 40%;
+  height: 100%;
+  float: left;
+  color: white;
+  font-size: 45px;
+  pointer-events: none;
+}
+.welcome h1
+{
+  text-shadow: 8px 8px #000;
+}
+
+.option-wrap
+{
+  width: relative;
+  font-size: 19px;
+  /*background: rgb(0,0,0,0.5);*/
+  float: right;
+  padding-right: 40px;
+  padding-top: 20px;
+}
+
+ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  overflow: hidden;
+}
+
+li
+{
+    float: left;
+}
+
+li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover
+{
+    background-color: #4CAF50;
+    border-radius: 30px;
+}

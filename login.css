@@ -1,0 +1,58 @@
+/*@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";*/
+body
+{
+  margin: 0;
+  background: url(OVS15.jpg);
+  background-size: cover;
+  font-family: "Times New Roman", Times, serif;
+}
+.login-box
+{
+  width: 320px;
+  height: 450px;
+  background: rgb(0,0,0,.8);
+  opacity: 50%;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  border-radius: 9px;
+  padding: 20px 30px;
+  box-shadow: 20px 20px 60px black;
+}
+.login-box h3
+{
+  margin: 0;
+  text-align: center;
+  font-size: 22px;
+  padding: 10px;
+  padding-bottom: 70px;
+}
+.login-box button
+{
+  background-color: #4CAF50;
+  border-radius: 20px;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 50px;
+}
+.login-box input[type="text"],input[type="password"]
+{
+  width: 200px;
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 1px solid #fff;
+  font-size: 14px;
+  color: white;
+  padding-bottom: 15px;
+}
